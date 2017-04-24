@@ -1,7 +1,7 @@
 body  {
    background-color: #f8f8f8;
 }
-@import "bootstrap";
+@import "bootstrap"
 
 //landing search bar
 .landing-search{
@@ -14,7 +14,7 @@ body  {
 
 //start of the footer
 .no-margin{
-   margin: opx;
+   margin: 0px;
 }
 .no-padding{
    padding: 0px;
@@ -60,4 +60,20 @@ body  {
 .header{
    font-family: 'Monoton', cursive;
 }
-//End of footer
+
+$fadedBlack : rgba(0,0,0,0.4);
+
+.add-add-new-image{
+  margin-top: 5%;
+}
+.add-add-new-home-form{
+  margin-top: 5%;
+  border-left: 1px solid $fadedBlack;
+  padding: 5%;
+}
+.add-add-new-image-button{
+  margin-top: 2%;
+  font-size: 15px;
+
+}
+
