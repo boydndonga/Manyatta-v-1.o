@@ -1,0 +1,53 @@
+{ "homes": [{
+    ""
+    "name": "Veruca Salt",
+    "national-id": "San Francisco",
+    "telephone": "Estate",
+    "occupation": "businessman",
+    "house": "three bedroom",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg",
+    "location": "kilimani Estate",
+    "street": "along ngong-road",
+    "rules": "private sectors of the compound shoud remain inaccesible",
+    "ammenities": "swimming pool and a gaming room",
+    "daily-rate": "5000"
+  }, {
+    "name": "Veruca Salt",
+    "national-id": "San Francisco",
+    "telephone": "Estate",
+    "occupation": "businessman",
+    "house": "three bedroom",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg",
+    "location": "kilimani Estate",
+    "street": "along ngong-road",
+    "rules": "private sectors of the compound shoud remain inaccesible",
+    "ammenities": "swimming pool and a gaming room",
+    "daily-rate": "5000"
+  }, {
+    "name": "Veruca Salt",
+    "national-id": "San Francisco",
+    "telephone": "Estate",
+    "occupation": "businessman",
+    "house": "three bedroom",
+    "image": "https://cah-com-res.cloudinary.com/image/upload/s--eCJtGBwa--/q_jpegmini:1/v1452056288/assets/CSH-Waypoint-Carousel-Slider-2_500k.jpg",
+    "location": "kilimani Estate",
+    "street": "along ngong-road",
+    "rules": "private sectors of the compound shoud remain inaccesible",
+    "ammenities": "swimming pool and a gaming room",
+    "daily-rate": "5000"
+  }],
+  "reviews": [{
+    "user": "user-id",
+    "rating": 4,
+    "content": "awesome Swimpool!!"
+  }, {
+    "user": "user-id",
+    "rating": 9,
+    "content": "cool ps2 games!"
+  }],
+    "bookings": [{
+        "user": "Andreas",
+        "check-in": "Monday April 24 2017",
+        "check-out": "Sunday April 30 2017"
+    }]
+}
