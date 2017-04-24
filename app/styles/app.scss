@@ -1,58 +1,21 @@
 @import "bootstrap";
 
-// discover template
-
-// searchbar
-#discoverimaginary_container{
-    // margin-top:20%; /* Don't copy this */
-}
-.discoversearchbar .stylish-input-group .input-group-addon{
-    background: white !important;
-}
-.discoversearchbar-button .stylish-input-group .form-control{
-	border-right:0;
-	box-shadow:0 0 0;
-	border-color:#ccc;
-}
-.stylish-input-group button{
-    border:0;
-    background:transparent;
+div.singlehomelocation{
+    border: 1px solid grey;
+    height: 200px;
+    width: 300px;
 }
 
-// house panels
-.nopadding {
+.singlehomeimage{
+    margin:10px;
     margin-left: 0px;
-    margin-right: 0px;
-}
-.discover-panel-heading {
-    color: #fff;
-    background-color:#f9f9f9;
-    border-color: #337ab7;
-    padding:0px;
-    border-bottom: 1px solid transparent;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
 
 }
-.discover-homename {
-  margin: 0px;
-  padding-left:10px;
-  color:#257ccc;
-}
-.discover-location {
-  padding-left: 0px;
-}
-.discover-review {
-  padding-left: 10px;
-}
-.discover-cost {
-  float: right;
-  margin-right: 10px;
-}
+
 body  {
    background-color: #f8f8f8;
 }
-@import "bootstrap"
+
 
 //landing search bar
 .landing-search{
@@ -110,6 +73,7 @@ body  {
 }
 .header{
    font-family: 'Monoton', cursive;
+
 }
 
 $fadedBlack : rgba(0,0,0,0.4);
@@ -126,4 +90,69 @@ $fadedBlack : rgba(0,0,0,0.4);
   margin-top: 2%;
   font-size: 15px;
 
+}
+.profile-picture {
+  width: 210px;
+  height: 210px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile-picture img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+// discover template
+
+// searchbar
+#discoverimaginary_container{
+    // margin-top:20%; /* Don't copy this */
+}
+.discoversearchbar .stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.discoversearchbar-button .stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+// house panels
+.nopadding {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.discover-panel-heading {
+    color: #fff;
+    background-color:#f9f9f9;
+    border-color: #337ab7;
+    padding:0px;
+    border-bottom: 1px solid transparent;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+
+}
+.discover-homename {
+  margin: 0px;
+  padding-left:10px;
+  color:#257ccc;
+}
+.discover-location {
+  padding-left: 0px;
+}
+.discover-review {
+  padding-left: 10px;
+}
+.discover-cost {
+  float: right;
+  margin-right: 10px;
 }
