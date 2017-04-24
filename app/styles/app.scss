@@ -1,3 +1,4 @@
+
 body  {
    background-color: #f8f8f8;
 }
@@ -76,4 +77,20 @@ $fadedBlack : rgba(0,0,0,0.4);
   font-size: 15px;
 
 }
+.profile-picture {
+  width: 210px;
+  height: 210px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.profile-picture img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
 
