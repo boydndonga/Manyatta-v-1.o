@@ -1,6 +1,8 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
+  /*defining attributes of users and their relationship*/
+
   name: DS.attr('string'),
   email: DS.attr('string'),
   avatar: DS.attr('string'),

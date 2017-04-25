@@ -18,7 +18,7 @@ export default DS.Model.extend({
   bookings: DS.hasMany('booking' {
     async: true
   }),
-  users: DS.belongsTo('user' {
+  user: DS.belongsTo('user' {
     async: true
   })
 
