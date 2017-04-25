@@ -5,11 +5,9 @@ export default Ember.Route.extend({
     return this.get('session').fetch().catch(function(){});
   },
   actions:{
-    signUp(email,password){
-      this.get('session').open('firebase',{
-        provider:'password',
-        email:email,
-        password:password
+    signUp(provider){
+      this.get('session').open('firebase', { provider: provider}).then(function(data) {
+
       });
     }
   }
