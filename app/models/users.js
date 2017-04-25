@@ -7,8 +7,14 @@ export default DS.Model.extend({
   occupation: DS.attr('string'),
   identification: DS.attr('string'),
 
-  houses: DS.hasMany('house'),
-  reviews: DS.hasMany('review'),
-  bookings: DS.hasMany('booking')
+  houses: DS.hasMany('house', {
+    async: true
+  }),
+  reviews: DS.hasMany('review', {
+    async: true
+  }),
+  bookings: DS.hasMany('booking', {
+    async: true
+  })
 
 });

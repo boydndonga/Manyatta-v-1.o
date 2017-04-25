@@ -12,8 +12,14 @@ export default DS.Model.extend({
   ammenities: DS.attr('string'),
   price: DS.attr('string'),
 
-  reviews: DS.hasMany('review'),
-  bookings: DS.hasMany('booking'),
-  users: DS.belongsTo('user')
+  reviews: DS.hasMany('review' {
+    async: true
+  }),
+  bookings: DS.hasMany('booking' {
+    async: true
+  }),
+  users: DS.belongsTo('user' {
+    async: true
+  })
 
 });
