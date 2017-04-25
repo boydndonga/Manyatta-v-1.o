@@ -1,1 +1,5 @@
-{{yield}}
+{{#if session.isAuthenticated}}
+  {{sign-in-navbar}}
+  {{else}}
+  {{login-navbar}}
+  {{/if}}
