@@ -8,10 +8,10 @@ export default DS.Model.extend({
       price: DS.attr('number'),
       occupants: DS.attr('number'),
 
-      user: belongsTo('user', {
+      user: DS.belongsTo('user', {
           async: true
         }),
-        house: belongsTo('house', {
+        house: DS.belongsTo('house', {
           async: true
         })
 

@@ -5,10 +5,10 @@ export default DS.Model.extend({
 
   comment: DS.attr('string'),
 
-  house: belongsTo('house', {
+  house: DS.belongsTo('house', {
     async: true
   }),
-  user: belongsTo('user', {
+  user: DS.belongsTo('user', {
     async: true
   })
 
