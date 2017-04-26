@@ -2,14 +2,42 @@
     <div class="singlehomeimage col-md-12">   
         <img src="/images/manyatta-pics/home1.jpg" alt="home1" height="600" width="100%">
     </div>
-    <div class="col-md-8">  
-        <button class=" btn btn-danger">Book Now</button> 
-        <h3>description</h3>
+    <div class="col-md-7">  
+         <h3>Description</h3>
             <p> this here should call out details of a home as specified by the owner</p>
-        <h3>rules</h3>
+        <h3>Rules</h3>
             <p> rules should be stipulate here</p>
+            <div class="singlehomelocation col-md-4">
+                <h3> Location</h3>
+            </div>
     </div>
-    <div class="singlehomelocation col-md-4">
-        <h3> Location</h3>
+    <div class="col-md-5 booking-section">
+        <div class="booking-button">
+            <button class=" btn btn-danger">Book Now</button> 
+        </div>
+        <form class="inner-div-booking">
+            <div class="form-group col-md-6">
+                <div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+                <label for="date">Check In:</label>
+                  <input class="form-control span2" size="16" type="date" value="12-02-2012">
+                  <span class="add-on"><i class="icon-th"></i></span>
+                </div>
+            </div>
+            <div class="form-group col-md-6">
+                <div class="input-append date" id="dp3" data-date="12-02-2012" data-date-format="dd-mm-yyyy">
+                <label for="date">Check Out:</label>
+                  <input class="form-control span2" size="16" type="date" value="12-02-2012">
+                  <span class="add-on"><i class="icon-th"></i></span>
+                </div>
+            </div>
+            <div class="form-group occupancy">
+                <label for="occupancy">Occupancy:</label>
+                <input type="number" name="occupancy" class="form-control occupancy">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-success btn-lg pull-right">Make Payment</button>
+            </div>
+        </form>
     </div>
+    
 </div>
