@@ -13,6 +13,9 @@ module.exports = function(environment) {
          projectId: "manyatta-a9c62",
          storageBucket: "manyatta-a9c62.appspot.com",
 },
+torii: {
+    sessionServiceName: 'session'
+  },
 
     EmberENV: {
       FEATURES: {
